@@ -14,7 +14,9 @@ function App() {
       <Router>
         <Routes>
         <Route exact path='/' element={<Home />}/>
+        
         <Route path='/signup' element={<SignUp />}/>
+        
         </Routes>
       </Router>
       
